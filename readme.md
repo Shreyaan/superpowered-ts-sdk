@@ -13,7 +13,7 @@ npm install superpowered-sdk
 First, import and instantiate the client:
 
 ```typescript
-import SuperpoweredApiClient from "superpowered-sdk";
+import { SuperpoweredApiClient } from "superpowered-sdk";
 
 const client = new SuperpoweredApiClient("your-username", "your-password");
 ```

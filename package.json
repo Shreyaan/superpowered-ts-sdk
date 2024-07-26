@@ -1,7 +1,7 @@
 {
-  "name": "superpowered-sdk",
+  "name": "@shreyaans/superpowered-sdk",
   "version": "0.0.1",
-  "description": "",
+  "description": "TypeScript client for interacting with the [Superpowered AI](https://superpowered.ai/) API",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "files": [
@@ -13,8 +13,12 @@
     "publish": "npm publish"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Shreyaan",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Shreyaan/superpowered-ts-sdk"
+  },
+  "license": "MIT",
   "dependencies": {
     "axios": "^1.7.2"
   },
