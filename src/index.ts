@@ -1,2 +1,2 @@
-export { default as SuperpoweredApiClient } from "./client";
+export { SuperpoweredApiClient } from "./client";
 export * from "./types";

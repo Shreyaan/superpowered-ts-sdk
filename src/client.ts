@@ -31,4 +31,4 @@ class SuperpoweredApiClient {
   }
 }
 
-export default SuperpoweredApiClient;
+export { SuperpoweredApiClient };

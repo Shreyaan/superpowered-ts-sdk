@@ -5,7 +5,7 @@ This package provides a TypeScript client for interacting with the [Superpowered
 ## Installation
 
 ```
-npm install superpowered-ts
+npm install superpowered-sdk
 ```
 
 ## Usage
@@ -13,7 +13,7 @@ npm install superpowered-ts
 First, import and instantiate the client:
 
 ```typescript
-import SuperpoweredApiClient from "superpowered-ts";
+import SuperpoweredApiClient from "superpowered-sdk";
 
 const client = new SuperpoweredApiClient("your-username", "your-password");
 ```
