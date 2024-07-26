@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "ES2015",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist",
+    "allowJs": true,
+    "lib": ["dom", "es6"],
+    "baseUrl": "./src",
+    "esModuleInterop": true,
+    "strict": true,
+    "paths": {
+      "@/*": ["./*"]
+    },
+    "inlineSources": true,
+    "sourceRoot": "/",
+    "declaration": true // Ensure this is set to generate type definitions
+  },
+  "exclude": ["node_modules", "dist"],
+  "include": ["src/**/*.ts", "tests/**/*.spec.ts"],
+  "files": ["src/index.ts"]
+}
